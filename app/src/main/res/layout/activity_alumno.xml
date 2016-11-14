@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alumno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jaime.horariodeclase.alumno">
+
+    <TextView
+        android:text="Regitro de alumno"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/alumnore" />
+
+    <TextView
+        android:text="Nombre:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre1"
+        android:layout_below="@+id/alumnore"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:text="Carnet:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/carnet"
+        android:layout_below="@+id/nombre1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Universidad:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carnet"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/uni" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:id="@+id/edad"
+        android:layout_below="@+id/uni"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:text="Cuidad:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cuidad"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edad"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/nombre1"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/nombretext" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/nombretext"
+        android:layout_toEndOf="@+id/uni"
+        android:id="@+id/carnettext" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/carnettext"
+        android:layout_toEndOf="@+id/uni"
+        android:id="@+id/unitext" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_above="@+id/cuidad"
+        android:layout_toEndOf="@+id/uni"
+        android:id="@+id/edadtext"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/edadtext"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/cuidadtext" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cuidad"
+        android:text="Carrera:"
+        android:layout_marginTop="24dp"
+        android:id="@+id/carrera"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/cuidadtext"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/carreratex" />
+
+</RelativeLayout>

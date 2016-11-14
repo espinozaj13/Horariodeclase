@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_horario"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:padding="10dp"
+    tools:context="com.example.jaime.horariodeclase.horario">
+
+    <TableLayout
+        android:id="@+id/Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+
+        <TableRow
+            android:id="@+id/Cabecera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/Hora"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Hora"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/lunes"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Lunes"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/martes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Martes"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/miercoles"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Miercoles"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+
+
+            <TextView
+                android:id="@+id/jueves"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Jueves"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/viernes"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Viernes"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/sabado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Sabado"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Cabecera1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/hora1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="7:00 a 8:40"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/lunes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/martes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/miercoles1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+
+
+            <TextView
+                android:id="@+id/jueves1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/viernes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/sabado1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+        </TableRow>
+    </TableLayout>
+
+</HorizontalScrollView>
