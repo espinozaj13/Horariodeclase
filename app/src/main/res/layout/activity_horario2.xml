@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_horario2"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jaime.horariodeclase.horario2">
+    android:id="@+id/activity_horario"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:padding="10dp"
+    tools:context="com.example.jaime.horariodeclase.horario">
 
-</RelativeLayout>
+    <TableLayout
+        android:id="@+id/Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/texto1"
+            />
+
+
+        <TableRow
+            android:id="@+id/Cabecera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Cabecera1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+    </TableLayout>
+
+</HorizontalScrollView>
