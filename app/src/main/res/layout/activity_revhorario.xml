@@ -85,73 +85,67 @@
         </TableRow>
 
         <TableRow
-        android:id="@+id/Cabecera1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            android:id="@+id/Cabecera1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 
-        <TextView
-            android:id="@+id/hora1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="8:00-9:40"
-            android:textColor="#005500"
-            android:textSize="26sp" />
-        <TextView
-            android:id="@+id/lunes1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Diseño Web"
-            android:textColor="#005500"
-            android:textSize="26sp" />
-        <TextView
-            android:id="@+id/martes1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Genero"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/hora1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/lunes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/martes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/miercoles1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Diseño Web"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/miercoles1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
 
 
 
-        <TextView
-            android:id="@+id/jueves1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Genero"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/jueves1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/viernes1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Diseño Web"
-            android:textColor="#005500"
-            android:textSize="26sp" />
-        <TextView
-            android:id="@+id/sabado1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text=""
-            android:textColor="#005500"
-            android:textSize="26sp" />
-    </TableRow>
+            <TextView
+                android:id="@+id/viernes1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/sabado1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text=""
+                android:textColor="#005500"
+                android:textSize="26sp" />
+        </TableRow>
 
         <TableRow
             android:id="@+id/Cabecera2"
@@ -162,17 +156,16 @@
             <TextView
                 android:id="@+id/hora2"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:padding="5px"
-                android:text="9:00-10:40"
                 android:textColor="#005500"
                 android:textSize="26sp" />
+
             <TextView
                 android:id="@+id/lunes2"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:padding="5px"
-                android:text=""
                 android:textColor="#005500"
                 android:textSize="26sp" />
             <TextView
@@ -233,7 +226,6 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:padding="5px"
-                android:text="11:00-12:40"
                 android:textColor="#005500"
                 android:textSize="26sp" />
             <TextView
@@ -241,7 +233,6 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:padding="5px"
-                android:text="Aplicacion Movile"
                 android:textColor="#005500"
                 android:textSize="26sp" />
             <TextView
@@ -258,7 +249,6 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:padding="5px"
-                android:text="Aplcacion Movile"
                 android:textColor="#005500"
                 android:textSize="26sp" />
 
@@ -278,7 +268,6 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:padding="5px"
-                android:text="Aplicacion Movile"
                 android:textColor="#005500"
                 android:textSize="26sp" />
             <TextView

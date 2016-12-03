@@ -19,8 +19,8 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
-        Button btn = (Button) findViewById(R.id.button3);
-        btn.setOnClickListener(new View.OnClickListener() {
+        Button btn1 = (Button) findViewById(R.id.button3);
+        btn1.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -33,26 +33,40 @@ public class Inicio extends AppCompatActivity {
 
         });
 
-        Button btn1 = (Button) findViewById(R.id.button);
-        btn1.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent inten = new Intent(v.getContext(), registro.class);
-
-                startActivityForResult(inten, 0);
-
-            }
-        });
-
-        Button btn2 = (Button) findViewById(R.id.button2);
+        Button btn2 = (Button) findViewById(R.id.button);
         btn2.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                Intent inten2 = new Intent(v.getContext(), horario.class);
+                Intent inten2 = new Intent(v.getContext(), registro.class);
 
                 startActivityForResult(inten2, 0);
+
             }
         });
+
+        Button btn3 = (Button) findViewById(R.id.button2);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent inten3 = new Intent(v.getContext(), revhorario.class);
+
+                startActivityForResult(inten3, 0);
+            }
+        });
+
+        Button btn4 = (Button) findViewById(R.id.button4);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent inten4 = new Intent(v.getContext(), asignaturaregistrada.class);
+
+                startActivityForResult(inten4, 0);
+            }
+        });
+
+
     }
+
+
 }

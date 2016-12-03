@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Bienvenido"
         android:textSize="30dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/welcometext"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/button" />
@@ -31,23 +31,31 @@
         android:layout_alignEnd="@+id/button" />
 
     <Button
-        android:text="Revisar Horario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:layout_alignEnd="@+id/button"/>
-
-    <Button
         android:text="Registro clase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/button3"
+        android:layout_marginTop="14dp"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Revisar Horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:text="Asignatura Registrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="22dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/welcometext" />
 
 </RelativeLayout>

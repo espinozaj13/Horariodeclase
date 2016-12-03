@@ -15,13 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".registro">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".registro" />
         <activity android:name=".alumno" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -31,8 +25,8 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".horario" />
-        <activity android:name=".horario2"></activity>
+        <activity android:name=".revhorario" />
+        <activity android:name=".asignaturaregistrada"></activity>
     </application>
 
 </manifest>

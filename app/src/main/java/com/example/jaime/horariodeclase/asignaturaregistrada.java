@@ -3,11 +3,11 @@ package com.example.jaime.horariodeclase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class horario2 extends AppCompatActivity {
+public class asignaturaregistrada extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_horario2);
+        setContentView(R.layout.activity_asignaturaregistrada);
     }
 }

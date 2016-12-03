@@ -70,7 +70,6 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:text="JAIME ESPINOZA"
         android:layout_alignBottom="@+id/nombre1"
         android:layout_alignParentEnd="true"
         android:id="@+id/nombretext" />
@@ -80,7 +79,6 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:text="2015530115"
         android:layout_below="@+id/nombretext"
         android:layout_toEndOf="@+id/uni"
         android:id="@+id/carnettext" />
@@ -90,7 +88,6 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:text="UCA"
         android:layout_below="@+id/carnettext"
         android:layout_toEndOf="@+id/uni"
         android:id="@+id/unitext" />
@@ -99,7 +96,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="21"
         android:layout_above="@+id/cuidad"
         android:layout_toEndOf="@+id/uni"
         android:id="@+id/edadtext"/>
@@ -108,7 +104,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="Leon"
         android:layout_below="@+id/edadtext"
         android:layout_alignParentEnd="true"
         android:id="@+id/cuidadtext" />
@@ -124,7 +119,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="Ing. Sistema de Informacion"
         android:layout_below="@+id/cuidadtext"
         android:layout_alignParentEnd="true"
         android:id="@+id/carreratex" />
